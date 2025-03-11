@@ -1,10 +1,10 @@
-package com.bookameet.config_server;
+package com.bookameet.user_auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigServerApplicationTests {
+class UserAuthApplicationTests {
 
 	@Test
 	void contextLoads() {
