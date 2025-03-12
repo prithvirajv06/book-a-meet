@@ -1,6 +1,6 @@
-package com.bookameet.user_auth.dal;
+package com.bookameet.user_service.dal;
 
-import com.bookameet.user_auth.model.User;
+import com.bookameet.user_service.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
