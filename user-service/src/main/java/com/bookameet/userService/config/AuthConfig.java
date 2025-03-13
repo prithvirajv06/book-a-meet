@@ -27,7 +27,7 @@ public class AuthConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.csrf(httpSecurityCsrfConfigurer -> httpSecurityCsrfConfigurer.disable())
                 .authorizeHttpRequests(
-                        authorizationManagerRequestMatcherRegistry -> authorizationManagerRequestMatcherRegistry.requestMatchers("/v1/user/login","/v1/user/register").permitAll()
+                        authorizationManagerRequestMatcherRegistry -> authorizationManagerRequestMatcherRegistry.requestMatchers("/v1/auth/login","/v1/auth/register").permitAll()
                 )
                 .build();
     }
@@ -53,8 +53,8 @@ public class AuthConfig {
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
         return (web) -> web.ignoring().requestMatchers(
-                "/v1/user/login",
-                "/v1/user/register",
+                "/v1/auth/login",
+                "/v1/auth/register",
                 "/swagger-resources/**",
                 "/swagger-ui.html/**",
                 "/swagger-resources/**",
