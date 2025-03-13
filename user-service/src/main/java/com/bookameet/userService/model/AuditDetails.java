@@ -1,9 +1,4 @@
-package com.bookameet.user_service.model;
-
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.data.mongodb.core.mapping.Document;
+package com.bookameet.userService.model;
 
 import java.time.LocalDateTime;
 

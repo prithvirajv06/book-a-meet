@@ -1,4 +1,4 @@
-package com.bookameet.user_service.model;
+package com.bookameet.userService.model;
 
 public class UserDetails {
 

@@ -1,4 +1,4 @@
-package com.bookameet.user_service.enums;
+package com.bookameet.userService.enums;
 
 public enum UserStatus {
     ACTIVE, INACTIVE

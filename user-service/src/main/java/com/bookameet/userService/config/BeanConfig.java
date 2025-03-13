@@ -1,4 +1,4 @@
-package com.bookameet.user_service.config;
+package com.bookameet.userService.config;
 import org.modelmapper.Conditions;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;

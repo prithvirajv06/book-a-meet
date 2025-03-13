@@ -1,4 +1,4 @@
-package com.bookameet.eureka_server;
+package com.bookameet.eurekaServer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

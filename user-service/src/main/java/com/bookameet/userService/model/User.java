@@ -1,7 +1,7 @@
-package com.bookameet.user_service.model;
+package com.bookameet.userService.model;
 
-import com.bookameet.user_service.enums.Role;
-import com.bookameet.user_service.enums.UserStatus;
+import com.bookameet.userService.enums.Role;
+import com.bookameet.userService.enums.UserStatus;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;

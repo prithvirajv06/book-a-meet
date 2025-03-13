@@ -1,4 +1,4 @@
-package com.bookameet.eureka_server;
+package com.bookameet.eurekaServer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,5 +1,6 @@
-package com.bookameet.user_service.dto;
+package com.bookameet.userService.dto;
 
+import com.bookameet.userService.enums.Role;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
@@ -10,4 +11,5 @@ public class UserDto {
     private String username;
     private String password;
     private String email;
+    private Role role;
 }

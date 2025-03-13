@@ -18,8 +18,9 @@ public class GatewayConfig {
     public RouteLocator routes(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route("user-service", r -> r.path("/v1/user/**")
+                        .filters(f -> f.filter(filter))
                         .uri("lb://user-service"))
-
+                // Add other routes
 
                 .build();
     }
