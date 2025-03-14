@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BookAMeet.iml" filepath="$PROJECT_DIR$/.idea/BookAMeet.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/booking-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/booking-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/commons.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/meeting-room-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/meeting-room-service.main.iml" />
