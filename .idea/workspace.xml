@@ -5,13 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c5de79-4701-4b4a-b86f-50422a198705" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/booking-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/commons.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/meeting-room-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/notification-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/events/BookingEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/events/MeetingRoomEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/events/NotificationEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/events/actions/MeetingRoomActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/config/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meeting-room-service/libs/commons-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meeting-room-service/src/main/java/com/bookameet/bookingService/dto/response/RoomResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meeting-room-service/src/main/java/com/bookameet/bookingService/enums/Amenities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meeting-room-service/src/main/java/com/bookameet/bookingService/service/MeetingRoomEventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meeting-room-service/src/main/java/com/bookameet/bookingService/service/MeetingRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/libs/commons-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/enums/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/config/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/config/GatewayConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/filter/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/bookameet/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/controller/UserProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/config/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/config/AuthConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/controller/UserAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/controller/UserAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/controller/UserProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/dal/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/dal/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/dto/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/dto/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/dto/response/TokenDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/dto/response/TokenDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/enums/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/enums/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/exceptions/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/exceptions/GeneralExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/exceptions/GenericErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/exceptions/GenericErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/exceptions/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/exceptions/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/exceptions/WrongCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/bookameet/commons/exceptions/WrongCredentialsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/model/AuditDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/model/AuditDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/model/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/model/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/service/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/service/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/service/UserAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/service/UserAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/userService/service/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/bookameet/bookingService/service/UserProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/bookameet/user_service/UserAuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/bookameet/commons/UserAuthApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +74,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/booking-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/commons">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/meeting-room-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/notification-service">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/user-service">
@@ -34,12 +104,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="gateway" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -49,8 +114,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -66,27 +131,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.eureka-server [:com.bookameet.eurekaServer.EurekaServerApplication.main()].executor": "Run",
-    "Gradle.eureka-server [:com.bookameet.eureka_server.EurekaServerApplication.main()].executor": "Run",
-    "Gradle.eureka-server [:com.bookameet.eureka_server.ServiceRegisterApplication.main()].executor": "Run",
-    "Gradle.gateway [:com.bookameet.gateway.GatewayApplication.main()].executor": "Run",
-    "Gradle.user-service [:com.bookameet.userService.UserServiceApplication.main()].executor": "Run",
-    "Gradle.user-service [:com.bookameet.user_service.UserServiceApplication.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.eureka-server [:com.bookameet.eurekaServer.EurekaServerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.eureka-server [:com.bookameet.eureka_server.EurekaServerApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.eureka-server [:com.bookameet.eureka_server.ServiceRegisterApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.gateway [:com.bookameet.gateway.GatewayApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.meeting-room-service [:com.bookameet.bookingService.MeetingRoomServiceApplication.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.user-service [:com.bookameet.userService.UserServiceApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.user-service [:com.bookameet.user_service.UserServiceApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Restart/BookAMeet/commons&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Restart\BookAMeet\meeting-room-service\src\main\java\com\bookameet\bookingService" />
+      <recent name="E:\Restart\BookAMeet\user-service\libs" />
+      <recent name="E:\Restart\BookAMeet" />
+      <recent name="E:\Restart\BookAMeet\commons\src\main\java\com\bookameet\commons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Restart\BookAMeet" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bookameet.user_auth.enums" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="Application.MeetingRoomServiceApplication">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bookameet.eurekaServer.EurekaServerApplication" />
       <module name="eureka-server.main" />
@@ -113,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bookameet.user_service.UserServiceApplication" />
-      <module name="user-service.main" />
+    <configuration name="MeetingRoomServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bookameet.bookingService.MeetingRoomServiceApplication" />
+      <module name="meeting-room-service.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bookameet.user_service.*" />
+          <option name="PATTERN" value="com.bookameet.bookingService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +202,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.bookameet.userService.UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bookameet.userService.UserServiceApplication" />
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bookameet.user_service.UserServiceApplication" />
       <module name="user-service.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bookameet.userService.*" />
+          <option name="PATTERN" value="com.bookameet.commons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.bookameet.bookingService.UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bookameet.bookingService.UserServiceApplication" />
+      <module name="user-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookameet.bookingService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +230,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.bookameet.userService.UserServiceApplication" />
+        <item itemvalue="Application.MeetingRoomServiceApplication" />
+        <item itemvalue="Application.com.bookameet.bookingService.UserServiceApplication" />
         <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.UserServiceApplication" />
         <item itemvalue="Application.EurekaServerApplication" />

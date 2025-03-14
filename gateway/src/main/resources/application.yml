@@ -12,3 +12,7 @@ spring:
       httpclient:
         connect-timeout: 60000
         response-timeout: 60s
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      auto-offset-reset: earliest
